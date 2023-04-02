@@ -1,0 +1,101 @@
+/* 0.390625 * 100vh( telefon ucun 576px,  tablet 576px - 772px, */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.input-card, #bg .all .middle .calculator .percent, #bg .all .middle .calculator .month, #bg .all .middle .calculator .money {
+  position: relative;
+  width: 100%;
+  height: 80px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+}
+.input-card .content, #bg .all .middle .calculator .percent .content, #bg .all .middle .calculator .month .content, #bg .all .middle .calculator .money .content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 3%;
+  display: flex;
+  justify-content: space-between;
+}
+.input-card .content .inf, #bg .all .middle .calculator .percent .content .inf, #bg .all .middle .calculator .month .content .inf, #bg .all .middle .calculator .money .content .inf {
+  font-size: 20px;
+  width: 30%;
+  color: gray;
+}
+.input-card .content .input_number, #bg .all .middle .calculator .percent .content .input_number, #bg .all .middle .calculator .month .content .input_number, #bg .all .middle .calculator .money .content .input_number {
+  width: 60%;
+  padding: 5px;
+  outline: none;
+  font-size: 2rem;
+  outline: none;
+  border: none;
+  text-align: end;
+  font-size: 20px;
+  font-weight: 500;
+}
+.input-card .content .input_number::-webkit-outer-spin-button, #bg .all .middle .calculator .percent .content .input_number::-webkit-outer-spin-button, #bg .all .middle .calculator .month .content .input_number::-webkit-outer-spin-button, #bg .all .middle .calculator .money .content .input_number::-webkit-outer-spin-button, .input-card .content .input_number::-webkit-inner-spin-button, #bg .all .middle .calculator .percent .content .input_number::-webkit-inner-spin-button, #bg .all .middle .calculator .month .content .input_number::-webkit-inner-spin-button, #bg .all .middle .calculator .money .content .input_number::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.input-card .content .input_type, #bg .all .middle .calculator .percent .content .input_type, #bg .all .middle .calculator .month .content .input_type, #bg .all .middle .calculator .money .content .input_type {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: end;
+  width: 10%;
+}
+.input-card .input_slide, #bg .all .middle .calculator .percent .input_slide, #bg .all .middle .calculator .month .input_slide, #bg .all .middle .calculator .money .input_slide {
+  position: absolute;
+  width: 100%;
+  bottom: -5%;
+  left: 0;
+}
+.input-card .range, #bg .all .middle .calculator .percent .range, #bg .all .middle .calculator .month .range, #bg .all .middle .calculator .money .range {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: absolute;
+  bottom: -30%;
+  left: 0;
+}
+.input-card .range span, #bg .all .middle .calculator .percent .range span, #bg .all .middle .calculator .month .range span, #bg .all .middle .calculator .money .range span {
+  font-size: 1rem;
+}
+
+#bg {
+  width: 100%;
+  height: 100vh;
+}
+#bg .all {
+  padding: 5% 10%;
+}
+#bg .all .head {
+  padding-bottom: 3rem;
+  text-align: start;
+}
+#bg .all .head h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+#bg .all .middle .result {
+  padding: 5%;
+  text-align: start;
+}
+#bg .all .middle .result .info {
+  padding-bottom: 4rem;
+}
+#bg .all .middle .result .info hr {
+  width: 50%;
+}
+#bg .all .middle .result .info div h1 {
+  font-size: 2rem;
+}
+#bg .all .middle .result a {
+  padding: 10px 20px;
+  background-color: blue;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+}/*# sourceMappingURL=Style.css.map */

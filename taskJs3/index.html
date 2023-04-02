@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/Style.css">
+    <link rel="stylesheet" href="./assets/css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+        integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>test</title>
+</head>
+
+<body>
+    <div id="bg">
+        <div class="container">
+            <div class="all">
+                <div class="head">
+                    <h1>Kredit kalkulyatoru</h1>
+                </div>
+                <div class="middle">
+                    <div class="row ">
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="calculator" id="Calculator">
+                                <div class="money" id="Money">
+                                    <div class="content">
+                                        <span class="inf">Kredit məbləği</span>
+                                        <input type="number" class="input_number" id="Money_Number">
+                                        <span class="input_type">Azn</span>
+                                    </div>
+                                    <input type="range" class="input_slide" id="Money_Slide" min="1" max="35000"
+                                        step="1">
+                                    <div class="range"> <span>1</span><span>35000</span></div>
+                                </div>
+                                <div class="month" id="Month">
+                                    <div class="content">
+                                        <span class="inf">Kredit müddəti</span>
+                                        <input type="number" class="input_number" id="Month_Number">
+                                        <span class="input_type">Ay</span>
+                                    </div>
+                                    <input type="range" class="input_slide" id="Month_Slide" min="1" max="59" step="1">
+                                    <div class="range"> <span>1 Ay</span><span>59 Ay</span></div>
+                                </div>
+                                <div class="percent" id="Percent">
+                                    <div class="content">
+                                        <span class="inf">Faiz dərəcəsi</span>
+                                        <input type="number" class="input_number" id="Percent_Number">
+                                        <span class="input_type">%</span>
+                                    </div>
+                                    <input type="range" class="input_slide" id="Percent_Slide" min="11.9" max="20.9"
+                                        step="0.1">
+                                    <div class="range"> <span>11.9%</span><span>20.9%</span></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12 col-sm-12">
+                            <div class="result">
+                                <div class="info">
+                                    <div class="monthly">
+                                        <h1 class="monthly_payment" id="Monthly_Payment">0 Azn</h1>
+                                        <span>Aylıq ödəniş</span>
+                                    </div>
+                                    <hr>
+                                    <div class="total">
+                                        <h1 class="total_amount" id="Total_Amount">0 Azn</h1>
+                                        <span>Ümumi məbləğ</span>
+                                    </div>
+                                </div>
+                                <a href="">
+                                    Kredit alın
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./assets/js/app.js"></script>
+</body>
+
+</html>
